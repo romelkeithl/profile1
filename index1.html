@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Easy Tutorials</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/839c724094.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">   
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>Web Designer</p>
+            <h1>Hi, I am <span>Keith</span><br> a Web Designer </h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about----------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.jpg">
+            </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi I'm Romel Keith I. Lugo currently a 4th year college of University of Bohol 
+                       taking up course Bachelor of Science in Computer Engineering. I am still studying
+                       but I guess I can help you with programming and coding problems just with my knowledge.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience/Projects</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Designer</span><br>Designer Web/App interface</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Image Processing Editor</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - 1st year College</span><br>Exploring Web Design</li>
+                            <li><span>2021 - 2022</span><br>Enhancing Web Design Skills</li>
+                            <li><span>2022-2023</span><br>Creating Simple Apps</li>
+                            <li><span>2023</span><br>Created an Image Processing Editor</li>
+                            <li><span>2024 - current</span><br>So far Learning and have Progressed,
+                                 has wide imagination and creation. </li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2015 - 2020</span><br>Holy Name University</li>
+                            <li><span>2021 - up until this year</span><br>University of Bohol </li>
+                            <li><span>Schooling HighSchool</span><br>-Since Gr. 7 up until Gr.12 I graduated at Holy Name University<br>
+                                which give me some knowledge to know about some Computer stuffs.</li>
+                                <li><span>College Schooling</span><br>-From 2021 up until now I am currently studying at University of Bohol taking up course 
+                                    Bachelor of Science In Computer Engineering, Going 4th Year.</li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services-------- -->
+ <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the process of creating and designing websites.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-java"></i>
+                <h2>Java Codes</h2>
+                <p>Java code refers to the instructions written in the Java programming language to perform a variety of tasks on a computer.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-c"></i>
+                <h2>C / C++ Code</h2>
+                <p>C++ code refers to instructions written in the C++ programming language, which is a general-purpose, 
+                    object-oriented programming language that builds on the C language.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Arduino </h2>
+                <p>Arduino is an open-source electronics platform based on easy-to-use hardware and software. 
+                   It's intended for anyone making interactive projects.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Assembly Language</h2>
+                <p>Assembly language is a low-level programming language that provides a way to write programs that are
+                   closely related to a computer's machine code instructions.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-bots"></i>
+                <h2>Sumobot Creation</h2>
+                <p>A Sumobot, or sumo robot, is a type of autonomous robot designed to compete in a 
+                    Sumo robot competition.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-bots"></i>
+                <h2>RC Plane Creation</h2>
+                <p>An RC plane (radio-controlled plane) is a model aircraft that is controlled remotely 
+                    by a radio transmitter and receiver system.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-camera-retro"></i>
+                <h2>Image Processing Editor</h2>
+                <p>An image processing editor is a software application designed to manipulate and enhance 
+                    digital images through various techniques and tools.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+ </div>
+ <!---------------portfolio--------------->
+ <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/coding.jpg">
+                <div class="layer">
+                    <h3>Codes(Java, C++, C, Arduino, Assembly)</h3>
+                    <p>I have some Projects that I have created or made relying on this some Languages. 
+                        I am not a master of it but some time I used to this programming Languages.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/sumobot1.jpg">
+                <div class="layer">
+                    <h3>Sumo-Bot Creation</h3>
+                    <p>Way back, I used to create and make this one like this a 'sumo-bot'.
+                        It is combined with hardware and software to create this one.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/rcplane1.jpg">
+                <div class="layer">
+                    <h3>RC Plane</h3>
+                    <p>This is our project this year, and I managed to create this one like this. 
+                        Also it is combined with hardware and software to create like this.</p>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/editor1.jpg">
+                <div class="layer">
+                    <h3>Image Processing Editor</h3>
+                    <p>This is one of the difficult project I made. But I am able to come up
+                        with a desire and beautiful-unique output.</p>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+ <!-----------------contact----------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>romelkeith08@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>09512399678</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/keth.lugo"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/romel_keithh/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://x.com/RomelkeithL"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-regular fa-envelope"></i></a>
+                </div>
+                <a href="images/myCV.pdf" download class="btn btn2">Curriculum Vitae</a>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright. Made with <i class="fa-solid fa-heart"></i> By Keith</p>
+    </div>
+ </div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }   
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        } 
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+    
+</script>
+
+</body>
+</html>
